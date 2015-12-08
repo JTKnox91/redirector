@@ -1,0 +1,28 @@
+{
+  "name": "Redirecter",
+  "version": "1.0.0",
+  "description": "Create custom urls",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "postinstall": "bower install"
+  },
+  "homepage": "https://survey-url.herokuapp.com",
+  "engines": {
+    "node": "4.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jtknox91/redirecter"
+  },
+  "author": "J.T. Knox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jtknox91/redirecter/issues"
+  },
+  "dependencies": {
+    "bower": "^1.5.2",
+    "express": "^4.13.3"
+  }
+}
+

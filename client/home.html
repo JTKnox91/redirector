@@ -1,0 +1,15 @@
+<div ng-controller="HomeController">
+  <h1>Create an even and paste URLS</h1>
+  <h3>{{scope.diections}}</h3>>
+  <form ng-submit="createSurvey()">
+    <input ng-model="eventName" type="message" placeholder="Eventer and even name">
+    <input type="submit" value="Submit" id="Submit">
+  </form>
+  <form ng-submit="createURLS()">
+    <input 
+      ng-model="urls"
+      type="message"
+      placeholder="participant1_name full_url_to_redirect_to1\nparticipant2_name full_url_to_redirect_to2...">
+    <input type="submit" value="Submit" id="Submit">
+  </form>
+</div>

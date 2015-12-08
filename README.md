@@ -1,0 +1,1 @@
+A simple link redirecter when you need to create custom links to surveys for an event, or whatever you can think of.
